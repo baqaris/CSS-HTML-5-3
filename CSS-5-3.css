@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.rowCont {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/*!!!!!! navnar !!!!! */
+.navigacia {
+    display: inline-flex;
+    max-width: 104px;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 28px 20px 28px;
+    gap: 24px;
+    background: #E7EEFF;
+
+}
+
+.logomark {
+    border-bottom: 1px solid #002B81;
+}
+
+.naviBar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-items: center;
+}
+
+/*!!!! MAIN ONTEiner !!!!!*/
+.heder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 42px;
+
+}
+
+/* !!!!!!!!!!!! header !!!!!!!!!! */
+
+.headerCont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E7EEFF;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+.searchCont {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* INPUT */
+.inputCont{
+    width:290px;
+    border:none;
+    padding:5px 10px;
+    background-color: #E7EEFF;;
+}
+
+.personelCont {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.NameFamale{
+    color: #5E6577;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/*!!!!!!!!!! MAIN !!!!!!!!!*/
+.Maincont {
+    display: flex;
+    /* max-width: 1144px; */
+    padding: 0px 96px 32px 96px;
+    flex-direction: column;
+    gap: 42px;
+}
+
+/* !!!!!@@@@ searchInf  @@@@!!!!! */
+.searchInf {
+    display: inline-flex;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.SearcIConsCont {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: #E7EEFF;
+    border-radius: 16px;
+    padding: 8px 24px 8px 12px;
+    width: auto;
+
+}
+
+.SearchiconCont2 {
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 8px 24px 8px 12px;
+    background-color: #E7EEFF;
+    gap: 12px;
+    width: auto;
+
+}
+
+.Searchiocnes3 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+    padding: 8px 24px 8px 12px;
+    background-color: #E7EEFF;
+    gap: 12px;
+}
+
+/* !!!!@@@@ HOUSE @@@@ */
+.HouseCont {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 42px;
+    
+
+}
+
+.background {
+    align-self: stretch;
+    background: url(image/houseModern.svg);
+    border-radius: 24px 24px 0px 0px;
+    height: 275px;
+
+}
+
+.houseDiv {
+    border-radius: 24px;;
+    display: flex;
+    width: 353px;
+    height: 355px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 2px 2px 5px rgba(31, 3, 3, 0.3), -2px -2px 5px rgba(255, 255, 255, 0.5);
+
+}
+
+.textCont {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    width: 353px;
+    background-color: #E7EEFF;
+    border-radius: 0px 0px 24px 24px;
+}
+
+.paragrapCont {
+    align-self: stretch;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.paragrapAdress {
+    align-self: stretch;
+    color: #606060;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.background2 {
+    align-self: stretch;
+    background: url(image/TwinVilla.svg);
+    border-radius: 24px 24px 0px 0px;
+    height: 275px;
+
+}
+
+.background3 {
+    align-self: stretch;
+    background: url(image/hostingHouse.svg);
+    border-radius: 24px 24px 0px 0px;
+    height: 275px;
+
+}
+
+.background4 {
+    align-self: stretch;
+    background: url(image/TropicVilla.svg);
+    border-radius: 24px 24px 0px 0px;
+    height: 275px;
+}
+
+.background5 {
+
+    align-self: stretch;
+    background: url(image/individualvilla.svg);
+    border-radius: 24px 24px 0px 0px;
+    height: 275px;
+
+}
+
+.background6 {
+    align-self: stretch;
+    background: url(image/minidoubHouse.svg);
+    border-radius: 24px 24px 0px 0px;
+    height: 275px;
+}
